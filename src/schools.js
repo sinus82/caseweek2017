@@ -11,7 +11,6 @@ function Schools() {
 
   this.init = function() {
     this.schools_list = $('#schools_list');
-    console.log(this.schools_list);
     this.init_school_type();
   }
 
@@ -26,7 +25,7 @@ function Schools() {
   }
 
   this.getSchools = function(name) {
-
+	console.log(name);
   }
 }
 
