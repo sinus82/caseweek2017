@@ -5,7 +5,7 @@ $ = cheerio.load(fs.readFileSync('src/schools.html'));
 
 describe("Deploy", function() {
   it("Dir check", function() {
-    expect(fs.readFileSync('deploy.sh')).toMatch(/node up.js [0-9a-f]{6} src.zip/);
+    expect(fs.readFileSync('deploy.sh')).toMatch(/node up.js [0-9a-f]{5} src.zip/);
   });
 });
 
