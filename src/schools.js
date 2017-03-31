@@ -96,7 +96,7 @@ function Schools() {
     var thiz = this;
     this.schools_types.forEach(function(name) {
       $('#school-type--' + name).click(function() {
-		thiz.render_schools(thiz.getSchools(name));
+		thiz.render_schools(thiz.get_schools(name));
         return false;
       });
     });
@@ -114,7 +114,7 @@ function Schools() {
 	this.section_schools_list.removeClass('hidden');
   }
   
-  this.getSchools = function(name) {
+  this.get_schools = function(name) {
 	return this.schools[name];
   }
 }
