@@ -16,6 +16,7 @@
 	<link href="normalize.css" rel="stylesheet">
 	<link href="schools.css?__SCHOOLS_ID__" rel="stylesheet">
 	<script src="static/jquery-3.2.0.min.js"></script>
+	<script src="static/jquery.tmpl.js"></script>
 	<script src="schools.js?__SCHOOLS_ID__"></script>
 </head>
 <body>
@@ -128,99 +129,10 @@
 								</li>
 							</ul>
 						</section>
-						<section id="schools_list" class="territory preview hidden" >
+						<section id="section_schools_list" class="territory preview hidden" >
 							<h2 class="title" tabindex="0">Szkoły</h2>
-							<ul class="grid grid--inline grid--gutter_sm u-m_top_40 u-clearfix">
-								<li class="grid-item grid-item--s_1of2 grid-item--l_1of3">
-									<div class="box-general">
-										<a class="box-general__top waves-effect" href="#" title="Ruch Światło-Życie (oaza)">
-										<div class="lazy">
-											<img alt="" class="" src="static/ea39184cc5.jpg">
-										</div></a>
-										<div class="box-general__content">
-											<div class="box-general__content__stars stars">
-												<i class="stars__item icon icon--star stars__item--highlighted"></i> <i class="stars__item icon icon--star stars__item--highlighted"></i> <i class="stars__item icon icon--star stars__item--highlighted"></i> <i class="stars__item icon icon--star stars__item--highlighted"></i> <i class="stars__item icon icon--star"></i>
-											</div><a class="box-general__content__name" href="#" tabindex="-1">Ruch Światło-Życie (oaza)</a>
-											<div class="quick-info quick-info--big">
-												<div class="quick-info__item">
-													<i class="icon icon--people"></i> <span>10313</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="grid-item grid-item--s_1of2 grid-item--l_1of3">
-									<div class="box-general">
-										<a class="box-general__top waves-effect" href="" title="Pielgrzymka Diecezji Tarnowskiej">
-										<div class="lazy">
-											<img alt="" class="" src="static/c2428b9a9e.jpg">
-										</div></a>
-										<div class="box-general__content">
-											<div class="box-general__content__stars stars">
-												<i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i>
-											</div><a class="box-general__content__name" href="#" tabindex="-1">Pielgrzymka Diecezji Tarnowskiej</a>
-											<div class="quick-info quick-info--big">
-												<div class="quick-info__item">
-													<i class="icon icon--people"></i> <span>3197</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="grid-item grid-item--s_1of2 grid-item--l_1of3">
-									<div class="box-general">
-										<a class="box-general__top waves-effect" href="#" title="Zespół Szkół Ekonomicznych nr 2">
-										<div class="box-general__top__letters">
-											<i class="icon-school-type icon-school-type--elementary"></i>
-										</div></a>
-										<div class="box-general__content">
-											<div class="box-general__content__stars stars">
-												<i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i>
-											</div><a class="box-general__content__name" href="#" tabindex="-1">Zespół Szkół Ekonomicznych nr 2</a>
-											<div class="quick-info quick-info--big">
-												<div class="quick-info__item">
-													<i class="icon icon--people"></i> <span>3070</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="grid-item grid-item--s_1of2 grid-item--l_1of3">
-									<div class="box-general">
-										<a class="box-general__top waves-effect" href="#" title="Zespół Szkół Ekonomicznych nr 2">
-										<div class="box-general__top__letters">
-											<i class="icon-school-type icon-school-type--middle"></i>
-										</div></a>
-										<div class="box-general__content">
-											<div class="box-general__content__stars stars">
-												<i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i>
-											</div><a class="box-general__content__name" href="#" tabindex="-1">Zespół Szkół Ekonomicznych nr 2</a>
-											<div class="quick-info quick-info--big">
-												<div class="quick-info__item">
-													<i class="icon icon--people"></i> <span>3070</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="grid-item grid-item--s_1of2 grid-item--l_1of3">
-									<div class="box-general">
-										<a class="box-general__top waves-effect" href="#" title="Zespół Szkół Ekonomicznych nr 2">
-										<div class="box-general__top__letters">
-											<i class="icon-school-type icon-school-type--other"></i>
-										</div></a>
-										<div class="box-general__content">
-											<div class="box-general__content__stars stars">
-												<i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i>
-											</div><a class="box-general__content__name" href="#" tabindex="-1">Zespół Szkół Ekonomicznych nr 2</a>
-											<div class="quick-info quick-info--big">
-												<div class="quick-info__item">
-													<i class="icon icon--people"></i> <span>3070</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
+							<ul id="ul_schools_list" class="grid grid--inline grid--gutter_sm u-m_top_40 u-clearfix">
+								
 							</ul>
 						</section>
 						
@@ -275,5 +187,26 @@
 			</footer>
 		</div>
 	</div>
+	<script id="school_template" type="text/x-jquery-tmpl">
+		<li class="grid-item grid-item--s_1of2 grid-item--l_1of3">
+			<div class="box-general">
+				<a class="box-general__top waves-effect" href="#" title="${name}">
+					<div class="lazy">
+						<img alt="" class="" src="${photo}">
+					</div>
+				</a>
+				<div class="box-general__content">
+					<div class="box-general__content__stars stars">
+						<i class="stars__item icon icon--star stars__item--highlighted"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i> <i class="stars__item icon icon--star"></i>
+					</div><a class="box-general__content__name" href="#" tabindex="-1">${name}</a>
+					<div class="quick-info quick-info--big">
+						<div class="quick-info__item">
+							<i class="icon icon--people"></i> <span>${students_count}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+	</script>
 </body>
 </html>
