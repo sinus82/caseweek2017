@@ -487,7 +487,7 @@ body {
     height: 100%
 }
 .page {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     overflow: hidden;
     background-color: #ffffff
 }
@@ -828,8 +828,9 @@ body {
     left: 50%;
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
-    font-size: 1.8rem;
-    color: #ffffff
+    font-size: 2.0rem;
+    color: #ffffff;
+	font-weight: bold;
 }
 @media (min-width: 768px) {
     .top-brand__title {
@@ -1240,8 +1241,9 @@ body {
 .footer__links,
 .footer__info {
     color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.6;
+	font-weight: bold;
     margin: 40px 25px;
     *zoom: 1
 }
@@ -5339,7 +5341,7 @@ select {
     color: #212121;
     margin-top: 10px;
     font-weight: bold;
-    font-size: 1.3rem
+    font-size: 1.6rem
 }
 .box-school-type-extended {
     background-color: #f1f1f1;
