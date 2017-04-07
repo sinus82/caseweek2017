@@ -10,10 +10,9 @@ describe("Deploy", function() {
 });
 
 describe("HTML", function() {
-  
-  it("School Types", function() {
-    expect($('section#type_list ul li i.icon-school-type').length).toEqual(4);
-  });
-  
-});
 
+  it("School Types", function() {
+    expect($('section#type_list ul li i.icon-school-type').length).toEqual(5);
+  });
+
+});
