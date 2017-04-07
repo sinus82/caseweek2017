@@ -14,5 +14,5 @@ describe("HTML", function() {
   it("School Types", function() {
     expect($('section#type_list ul li i.icon-school-type').length).toEqual(6);
   });
-
+  
 });
